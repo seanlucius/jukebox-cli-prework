@@ -43,6 +43,6 @@ def run(songs)
     help
     puts "Please enter a command:"
     prompt_response = gets.chomp
-    
+    case 
   end 
 end 
