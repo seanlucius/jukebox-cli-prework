@@ -50,8 +50,7 @@ def run(songs)
         play(songs)
       when "help"
         help
-    
-    
     end 
+    break if prompt_response == "exit"
   end 
 end 
