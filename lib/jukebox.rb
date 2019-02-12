@@ -53,4 +53,5 @@ def run(songs)
     end 
     break if prompt_response == "exit"
   end 
+  exit_jukebox
 end 
