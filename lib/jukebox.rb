@@ -44,7 +44,7 @@ def run(songs)
     puts "Please enter a command:"
     prompt_response = gets.chomp
     case prompt_response
-    
+      when "list"
     
     
     end 
