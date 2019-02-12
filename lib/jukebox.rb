@@ -26,6 +26,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.chomp
   if user_response.to_i > 0 && user_response.to_i < songs.length
+    puts "Playing #{songs[user_response.to_i - 1]}"
     
   end 
 end 
