@@ -45,6 +45,9 @@ def run(songs)
     prompt_response = gets.chomp
     case prompt_response
       when "list"
+        list(songs)
+      when "play"
+        play(songs)
     
     
     end 
