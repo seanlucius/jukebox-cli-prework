@@ -27,6 +27,6 @@ def play(songs)
   user_response = gets.chomp
   if user_response.to_i > 0 && user_response.to_i < songs.length
     puts "Playing #{songs[user_response.to_i - 1]}"
-    elsif songs.include?
+    elsif songs.include?()
   end 
 end 
